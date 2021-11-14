@@ -1,0 +1,10 @@
+* {
+  font-family: "Poppins", sans-serif, monospace;
+  color: white;
+}
+
+body {
+  background-color: black;
+  background-image: url(PIA15415_orig.jpg);
+  background-size: cover;
+}
