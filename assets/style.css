@@ -119,12 +119,15 @@ a:hover {
 #navbar {
   background-color: var(--dark-purple);
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   width: auto;
   border-bottom: 3px solid var(--rubine-red);
   padding: 1rem;
-  justify-content: space-around;
 }
 
 #about {
