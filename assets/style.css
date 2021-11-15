@@ -80,12 +80,6 @@ a:hover {
   background-color: var(--darker-purple);
 }
 
-#profile-content > p {
-  width: fit-content;
-  margin: 0.5rem auto;
-  padding: 0;
-}
-
 #profile {
   position: fixed;
   display: flex;
@@ -99,9 +93,14 @@ a:hover {
 }
 
 #profile-content {
-  display: inline-block;
   padding: 1rem;
   margin: auto;
+}
+
+#profile-content > p {
+  width: fit-content;
+  margin: 0.5rem auto;
+  padding: 0;
 }
 
 #feed {
@@ -125,6 +124,7 @@ a:hover {
   width: auto;
   border-bottom: 3px solid var(--rubine-red);
   padding: 1rem;
+  justify-content: space-around;
 }
 
 #about {
