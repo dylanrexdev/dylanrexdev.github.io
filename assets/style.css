@@ -27,23 +27,31 @@ h3,
 h4,
 h5,
 h6 {
-  padding: 1.5rem 0 0.5rem 1rem;
+  padding: 1.5rem 0 0.5rem 0;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-left: 2rem;
+}
 p {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
+  margin-left: 3rem;
 }
 
 ol,
 ul {
-  padding: 0rem 4rem;
+  margin-left: 3rem;
 }
 
 hr {
   border: none;
   background-color: var(--dark-slate-blue);
   height: 2px;
-  margin-bottom: 1rem;
+  margin: 0rem 2rem 1rem 2rem;
 }
 
 a {
@@ -62,7 +70,20 @@ a:hover {
 }
 
 #dylan-rex {
-  padding: 1.5rem 0 0.5rem 0;
+  padding: 0;
+  margin: 1.5rem 0 0.5rem 0;
+  background-color: var(--darker-purple);
+}
+
+#profile-tags {
+  font-size: 1.2rem;
+  background-color: var(--darker-purple);
+}
+
+#profile-content > p {
+  width: fit-content;
+  margin: 0.5rem auto;
+  padding: 0;
 }
 
 #profile {
@@ -88,8 +109,12 @@ a:hover {
   background-size: cover;
   height: auto;
   width: auto;
-  padding: 0 5%;
+  padding: 0 3%;
   margin: 0 0 0 25vw;
+}
+
+#content {
+  padding: 0 2%;
 }
 
 #navbar {
@@ -104,6 +129,7 @@ a:hover {
 
 #about {
   margin: 2rem 4rem;
+  font-size: 1rem;
 }
 
 .navlink {
@@ -112,5 +138,13 @@ a:hover {
   text-decoration: none;
 }
 
-.feed-item {
+.tag-sep {
+  color: var(--rubine-red);
+  font-weight: 900;
+}
+
+.tag-sep-header {
+  color: var(--rubine-red);
+  font-weight: 500;
+  letter-spacing: -5px;
 }
