@@ -41,6 +41,7 @@ h6 {
 p {
   padding: 0.5rem 0rem;
   margin-left: 3rem;
+  margin-right: 5rem;
 }
 
 ol,
@@ -131,7 +132,7 @@ a:hover {
   padding: 1rem;
 }
 
-#about {
+#about-me {
   margin: 2rem 4rem;
   font-size: 1rem;
 }
