@@ -8,6 +8,7 @@
   --darker-purple: rgb(14, 2, 26);
   --light-light-gray: rgb(199, 201, 218);
   --dark-slate-blue: #57448fff;
+  --black: #000000;
 }
 
 * {
@@ -18,7 +19,7 @@
 }
 
 body {
-  background-color: var(--darker-purple);
+  background-color: var(--black);
 }
 
 h1,
@@ -104,7 +105,7 @@ a:hover {
 }
 
 #feed {
-  background-color: var(--dark-purple);
+  background-color: var(--black);
   background-size: cover;
   height: auto;
   width: auto;
@@ -117,7 +118,7 @@ a:hover {
 }
 
 #navbar {
-  background-color: var(--dark-purple);
+  background-color: var(--black);
   position: sticky;
   position: -webkit-sticky;
   top: 0;
