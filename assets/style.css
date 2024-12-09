@@ -73,12 +73,12 @@ a:hover {
 #dylan-rex {
   padding: 0;
   margin: 1.5rem 0 0.5rem 0;
-  background-color: var(--darker-purple);
+  background-color: var(--black);
 }
 
 #profile-tags {
   font-size: 1.2rem;
-  background-color: var(--darker-purple);
+  background-color: var(--black);
 }
 
 #profile {
