@@ -12,7 +12,6 @@
 }
 
 * {
-  font: -apple-system-body !important;
   font-family: "Poppins", sans-serif;
   color: var(--light-light-gray);
   margin: 0;
