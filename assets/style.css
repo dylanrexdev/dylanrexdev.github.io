@@ -157,17 +157,19 @@ a:hover {
   letter-spacing: -5px;
 }
 
-#scroll-arrow {
-  display: none;
-}
-
 #topmenu {
-  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  display: none;
   flex-direction: row;
   height: 4rem;
   width: 100%;
   align-items: center;
+  background-color: #000000;
+  justify-content: space-between;
   }
+
 #topmenu p {
   padding:0;
   margin: 0;
@@ -176,7 +178,48 @@ a:hover {
 #menuicon {
   height: 3rem;
   width: auto;
-  padding: .5rem 0;
+}
+
+#hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height: 32px;
+
+}
+
+#line {
+  width: 2rem;
+  height: .25rem;
+  background-color: var(--light-light-gray);
+  border-radius: 0.5rem;
+}
+
+#scroll-arrow {
+  display: none;
+  justify-content: center;
+  font-size: large;
+
+}
+.arrow {
+  height: 7px;
+  width: 4rem;
+  background-color: var(--light-light-gray);
+  display: inline-block;
+  margin-bottom: 6rem;
+  border-radius: .5rem;
+  position:relative;
+
+}
+
+.right {
+  transform: rotate(-30deg);
+  left: -6px;
+
+}
+.left {
+  transform: rotate(30deg);
+  left: 6px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -185,6 +228,7 @@ a:hover {
     width:auto;
     border:none;
     flex-direction: column;
+    height: calc( 100vh - 6rem);
   }
   #feed {
     margin: 0;
@@ -193,28 +237,14 @@ a:hover {
 
   #scroll-arrow {
     display: flex;
-    justify-content: center;
-    font-size: large;
-
   }
-  .arrow {
-    height: 7px;
-    width: 4rem;
-    background-color: var(--light-light-gray);
-    display: inline-block;
-    margin-bottom: 3rem;
-    border-radius: .5rem;
-    position:relative;
+  
+  #topmenu {
+    display: flex;
 
   }
 
-  .right {
-    transform: rotate(-30deg);
-    left: -6px;
-
-  }
-  .left {
-    transform: rotate(30deg);
-    left: 6px;
+  #navbar {
+    display: none;
   }
 }
