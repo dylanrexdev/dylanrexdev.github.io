@@ -161,7 +161,7 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   #profile {
     position: static;
     width:auto;
