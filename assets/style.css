@@ -155,3 +155,47 @@ a:hover {
   font-weight: 500;
   letter-spacing: -5px;
 }
+
+#scroll-arrow {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  #profile {
+    position: static;
+    width:auto;
+    border:none;
+    flex-direction: column;
+  }
+  #feed {
+    margin: 0;
+
+  }
+
+  #scroll-arrow {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+
+  }
+  .arrow {
+    height: 7px;
+    width: 4rem;
+    background-color: var(--light-light-gray);
+    display: inline-block;
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+    position:relative;
+
+  }
+
+  .right {
+    transform: rotate(-30deg);
+    left: -6px;
+
+  }
+  .left {
+    transform: rotate(30deg);
+    left: 6px;
+  }
+}
