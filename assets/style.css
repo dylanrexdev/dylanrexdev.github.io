@@ -154,7 +154,7 @@ a:hover {
 .tag-sep-header {
   color: var(--rubine-red);
   font-weight: 500;
-  letter-spacing: -5px;
+  letter-spacing: -.25rem;
 }
 
 #topmenu {
@@ -233,10 +233,6 @@ a:hover {
 
   }
 
-  #about-me {
-    text-align: center;
-  }
-
   ul {
     text-align: start;
   }
@@ -251,6 +247,7 @@ a:hover {
 
   #feed {
     margin: 0;
+    padding: 0;
   }
 
   #scroll-arrow {
@@ -265,4 +262,43 @@ a:hover {
   #navbar {
     display: none;
   }
+}
+
+@media screen and (max-width: 800px) {
+  * {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  hr {
+    margin: 0rem 1rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-left: 1rem;
+  }
+  p {
+    margin-left: 1.5rem;
+  }
+
+  #dylan-rex {
+    font-size: 2rem;
+  }
+  
+  .tag-sep-header {
+    font-size: 1.2rem;
+  }
+
+  #about-me {
+    margin: 0;
+  }
+
+
 }
