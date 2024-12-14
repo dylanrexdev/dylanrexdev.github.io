@@ -168,8 +168,8 @@ a:hover {
   align-items: center;
   background-color: #000000;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
-  border-color: var(--light-light-gray);
+  padding: 0.6rem 1rem;
+  border-bottom: 2px solid var(--light-light-gray);
 
   }
 
