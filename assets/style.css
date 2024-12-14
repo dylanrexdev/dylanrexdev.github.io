@@ -230,6 +230,11 @@ a:hover {
 @media screen and (max-width: 1400px) {
   html {
     scroll-padding-top: 5vh;
+
+  }
+
+  body {
+    font-size: 12px;
   }
 
   #about-me {
