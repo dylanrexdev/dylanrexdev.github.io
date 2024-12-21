@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="assets/style.css" />
     <!-- https://coolors.co/da0158-fa11bb-490241-5ed7f4-8e35d3-150225-->
+    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -21,11 +22,20 @@
         Data <span class="tag-sep">//</span> Dev
         <span class="tag-sep">//</span> Design
       </p>
-      <div id="hamburger-menu">
+      <a href="javascript:void(0);" id="hamburger-menu" onclick="menu_toggle()">
         <div id="line"></div>
         <div id="line"></div>
         <div id="line"></div>
-      </div>
+      </a>
+    </div>
+    <div id="navbar">
+      <a href="#feed" class="navlink" onclick="menu_toggle()">About</a>
+      <a href="#projects" class="navlink" onclick="menu_toggle()">Projects</a>
+      <a href="#gallery" class="navlink" onclick="menu_toggle()">Gallery</a>
+      <a href="#certifications" class="navlink" onclick="menu_toggle()"
+        >Certifications</a
+      >
+      <a href="#contact" class="navlink" onclick="menu_toggle()">Contact</a>
     </div>
     <div id="profile">
       <div id="profile-content">
@@ -44,13 +54,6 @@
       </a>
     </div>
     <div id="feed">
-      <div id="navbar">
-        <a href="#feed" class="navlink">About</a>
-        <a href="#projects" class="navlink">Projects</a>
-        <a href="#gallery" class="navlink">Gallery</a>
-        <a href="#certifications" class="navlink">Certifications</a>
-        <a href="#contact" class="navlink">Contact</a>
-      </div>
       <div id="content">
         <div id="about" class="feed-item">
           <h1><span class="tag-sep-header">//</span> About Me</h1>
@@ -67,10 +70,13 @@
               proficient in JavaScript,
               Responsive Design, and API Communication.before concentrating on development.
               Familiar with Node.js, Search Engine Optimization (SEO), and
-              database management. I have over 8 years experience using Adobe
-              PhotoShop, as well as extensive BigCommerce API and data structure
-              experience. My other skills include spreadsheet formulas, custom
-              scripting, graphic design, and project management.
+              database management.
+            </p>
+            <p>
+              I have over 8 years experience using Adobe PhotoShop, as well as
+              extensive BigCommerce API and data structure experience. My other
+              skills include spreadsheet formulas, custom scripting, graphic
+              design, and project management.
             </p>
             <p>My development experience includes:</p>
             <ul>
